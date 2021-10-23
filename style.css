@@ -1,0 +1,60 @@
+.logo-img {
+  height: 50px;
+  width: 65px;
+  display: inline-block;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  margin-left: 6px;
+  list-style: none;
+}
+.link{
+  color: black;
+  text-decoration-line: none;
+}
+.circle{
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  margin-top: 100px;
+  position: relative;
+  display: inline-block;
+  margin-left: 300px;
+}
+.circle-small{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.circle-small-1{
+  top: 30px;
+  left: 6px;
+}
+.circle-small-2{
+  top: 250px;
+  left: 250px;
+}
+.circle-small-3{
+  top: -50px;
+  left: 150px;
+}
+.circle-small-12{
+  top: 0px;
+  left: 300px;
+}
+.circle-small-22{
+  top: -50px;
+  left: 250px;
+}
+.circle-small-32{
+  top: 0px;
+  left: 250px;
+}
